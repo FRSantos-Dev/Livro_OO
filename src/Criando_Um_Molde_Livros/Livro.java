@@ -10,6 +10,7 @@ public class Livro {  //Caracteristicas de que um liivro deve ter "ATRIBUTOS"
     String nomeDoAutor;
     String emailDoAutor;
     String cpfDoAutor;
+    Autor autor;
 
     void mostrarDetalhes(){
     String mensagem = "Mostrando detalhes do livro ";

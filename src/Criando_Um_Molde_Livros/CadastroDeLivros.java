@@ -3,14 +3,24 @@ package Criando_Um_Molde_Livros;
 public class CadastroDeLivros {
     public static void main(String[] args) {
 
+        Autor autor = new Autor();
+        autor.nome = "Rodrigo Turini";
+        autor.email = "rodrigo.turini@caelum.com.br";
+        autor.cpf = "123.456..789.10";
+
         Livro livro = new Livro();
         livro.nome = "Java 8 Prático";
         livro.descricao = "Novos Recursos da linguagem";
         livro.valor = 59.90;
         livro.isbn = "978-85-66250-46-6";
 
+        livro.autor = autor;
         livro.mostrarDetalhes(); //Imprimi todas as caracteristicascom uma linha
 
+        Autor outroAutor = new Autor();
+        outroAutor.nome = "Paulo Silveira";
+        outroAutor.email = "paulo.silveira@caelum.com.br";
+        outroAutor.cpf = "123.456.789.10";
        /* System.out.println(livro.nome);
         System.out.println(livro.descricao);
         System.out.println(livro.valor);
