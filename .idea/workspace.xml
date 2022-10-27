@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37afe7d2-dc1c-426f-8ee6-13301dbbe8be" name="Changes" comment="Acrescentando dois autores no CadastroDeLivros">
-      <change afterPath="$PROJECT_DIR$/src/Criando_Um_Molde_Livros/ComparandoReferencias.java" afterDir="false" />
+    <list default="true" id="37afe7d2-dc1c-426f-8ee6-13301dbbe8be" name="Changes" comment="Criando  Class ComparandoReferencias, para exemplificar que ao comparar utilizando == estamos comparando o valor da varíavel, que semore será a refencia(endereço) para onde encontrar o objeto na memória.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Criando_Um_Molde_Livros/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Criando_Um_Molde_Livros/Autor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Criando_Um_Molde_Livros/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Criando_Um_Molde_Livros/Livro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666902633801</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Criando  Class ComparandoReferencias, para exemplificar que ao comparar utilizando == estamos comparando o valor da varíavel, que semore será a refencia(endereço) para onde encontrar o objeto na memória.">
+      <created>1666905899332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666905899332</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +97,7 @@
     <MESSAGE value="Orientação a Objetos" />
     <MESSAGE value="Criacao do objeto  Autor" />
     <MESSAGE value="Acrescentando dois autores no CadastroDeLivros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Acrescentando dois autores no CadastroDeLivros" />
+    <MESSAGE value="Criando  Class ComparandoReferencias, para exemplificar que ao comparar utilizando == estamos comparando o valor da varíavel, que semore será a refencia(endereço) para onde encontrar o objeto na memória." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando  Class ComparandoReferencias, para exemplificar que ao comparar utilizando == estamos comparando o valor da varíavel, que semore será a refencia(endereço) para onde encontrar o objeto na memória." />
   </component>
 </project>
